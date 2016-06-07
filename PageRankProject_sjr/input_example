@@ -1,0 +1,3 @@
+ArticleA	1.0	ArticleC,ArticleD,ArticleF,ArticleH
+ArticleB	1.0	ArticleE,ArticleL,ArticleC
+ArticleC	1.0	ArticleM,ArticleN,ArticleA
