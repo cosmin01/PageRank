@@ -1,0 +1,12 @@
+Mapper:
+	Input: (document, fiecare linie)
+	Output: (cuvant@document, 1)
+
+Reducer:
+	Input: N = suma valorilor pentru fiecare chei “cuvant@document”
+	Output: ((cuvant@document), n)
+
+Exemplu:
+	therefore@all-shakespeare       652
+	therefore@leornardo-davinci-all.txt     124
+	therefore@the-outline-of-science-vol1.txt       36

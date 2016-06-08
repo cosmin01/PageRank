@@ -1,0 +1,13 @@
+Mapper:
+	Input: ((cuvant@document), n)
+	Output: (document, cuvant=n)
+
+Reducer:
+	Input: N = nrTotalCuvinteInDoc = sum [cuvant=n]) pentru fiecare doc
+	Output: ((cuvant@document), (n/N))
+
+Exemplu:
+	irrespective@leornardo-davinci-all.txt 1/149612
+	ignorance@leornardo-davinci-all.txt 12/149612
+	drawing@leornardo-davinci-all.txt 174/149612
+	relief@leornardo-davinci-all.txt 36/149612

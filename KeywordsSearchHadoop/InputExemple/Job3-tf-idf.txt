@@ -1,0 +1,15 @@
+Mapper:
+	Input: ((cuvant@document), (n/N))
+	Output: (cuvant, document =n/N)
+
+Reducer:
+	D = numarul total de documente. Este transmis catre driver ca o constanta.
+	d = numarul de documente in care apare cuvantul.
+	TFIDF = n/N * log(D/d);
+	Output: ((cuvant@document), d/D, (n/N), TFIDF)
+
+Exemplu:
+	therefore@all-shakespeare       [3/3 , 652/738781 , 0.00088253]
+	therefore@the-outline-of-science-vol1.txt       [3/3 , 36/70650 , 0.00050955]
+	therefore@leornardo-davinci-all.txt     [3/3 , 124/149612 , 0.00082881]
+
